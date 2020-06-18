@@ -1,4 +1,4 @@
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 ### Creating a table
 

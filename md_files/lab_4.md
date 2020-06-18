@@ -1,5 +1,5 @@
 
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 Lab 4. Indexes
 ---------------
@@ -52,7 +52,7 @@ table with a simple primary key that involves only one column, as shown
 in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_01.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_01.jpg)
 
 The `symbol` field is assigned the
 primary key of the `dayquote01` table. This means that all the
@@ -63,7 +63,7 @@ Alternatively, the primary key can be defined by an explicit
 `PRIMARY KEY` clause, as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_02.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_02.jpg)
 
 Unlike relational databases, Cassandra does not enforce a unique
 constraint on the primary key, as there is no *primary key
@@ -76,7 +76,7 @@ symbol and no primary key violation is alerted, as shown in the
 following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_03.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_03.jpg)
 
 The returned query result contains only one row,
 not two rows as expected. This is because the primary key is the symbol
@@ -98,7 +98,7 @@ when we know how the internal storage engine stores the row, as shown by
 Cassandra CLI in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_04.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_04.jpg)
 
 The row key is `0001.HK`. It is used to
 locate which node is used to store the row. Whenever we insert or update
@@ -121,7 +121,7 @@ column. The order of the columns is important. The
 structure of a compound primary key is depicted in the following figure:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_05.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_05.jpg)
 
 Columns 1 to A are used as the partition key for Cassandra to determine
 the node location for the partition. The remaining columns, columns B to
@@ -142,7 +142,7 @@ for the table `dayquote03` , as shown in the following
 screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_06.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_06.jpg)
 
 Because the first part of the primary key (that is `symbol`)
 is the same as that of the simple primary key, the partition key is the
@@ -161,7 +161,7 @@ the `dayquote03` table and select all the records to see the
 effect, as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_07.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_07.jpg)
 
 Two records are returned as expected (compared to
 only one record in `dayquote01`).
@@ -170,7 +170,7 @@ Moreover, the ordering of the results is sorted by the values of
 of the rows in the `dayquote03` table:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_08.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_08.jpg)
 
 The row key is still the partition key, that is,
 `0001.HK`. However, Cassandra stores the two rows returned by
@@ -206,7 +206,7 @@ same two records of different symbols into `dayquote04` , as
 shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_09.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_09.jpg)
 
 With reference to the following screenshot, two internal rows are
 returned with their row keys as `SEHK:0001.HK` and
@@ -220,7 +220,7 @@ different nodes. The value of the clustering column
 name to preserve the ordering of data:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_10.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_10.jpg)
 
 
 ### Time-series data
@@ -243,7 +243,7 @@ partition key to `exchange` and `quote_date`
 instead, as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_11.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_11.jpg)
 
 Now the composite partition key limits the size
 of the rows on a daily basis, and makes the rows
@@ -372,7 +372,7 @@ even when using `RandomPartitioner` or
 as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_12.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_12.jpg)
 
 `ByteOrderedPartitioner` arranges tokens in the same way as
 key values, while `RandomPartitioner` and
@@ -441,14 +441,14 @@ column `sector` to indicate the sector that the stock belongs
 to, as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_13.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_13.jpg)
 
 If we want to search `dayquote06` for
 symbols that belong to `Properties` , we might run the command,
 as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_14.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_14.jpg)
 
 As `sector` is not in the primary key, we cannot query
 Cassandra directly by `sector`. Instead, we can create a
@@ -456,7 +456,7 @@ secondary index on the column `sector` to make this possible,
 as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_04_15.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_04_15.jpg)
 
 The index name `dayquote06_sector_idx` is
 optional, but must be unique within the keyspace. Cassandra assigns a

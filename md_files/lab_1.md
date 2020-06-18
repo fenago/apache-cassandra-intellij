@@ -1,5 +1,5 @@
 
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 Lab 1. Bird's Eye View of Cassandra
 -------------------------------------------------
@@ -84,7 +84,7 @@ Other popular NoSQL database products are, just to name a few, MongoDB,
 Riak, Redis, Neo4j, so on and so forth.
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_01.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_01.jpg)
 
 :::
 The Data Platforms Landscape Map (Source: 451 Research)
@@ -583,7 +583,7 @@ its assigned token to that of the previous node. For example, in the
 following figure, a cluster contains four nodes with unique tokens:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_02.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_02.jpg)
 
 :::
 Cassandra's consistent hashing
@@ -647,7 +647,7 @@ relationship among replication factor, replication strategy, and snitch
 in a better way:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_03.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_03.jpg)
 
 :::
 Multiple data center cluster
@@ -710,7 +710,7 @@ The following figure depicts the  components and
 their sequence of executions that form a write path:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_04.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_04.jpg)
 
 :::
 Cassandra write path
@@ -745,7 +745,7 @@ is tunable on a spectrum of write consistency levels, as shown in the
 following figure:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_05.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_05.jpg)
 
 :::
 Cassandra write consistency levels
@@ -800,7 +800,7 @@ components and their sequence of executions that
 form a read path:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_06.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_06.jpg)
 
 :::
 Cassandra read path
@@ -816,7 +816,7 @@ Similar to the write consistency levels, Cassandra also provides tunable
 read consistency levels, as shown in the following figure:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_01_07.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_01_07.jpg)
 
 :::
 Cassandra read consistency levels

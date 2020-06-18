@@ -1,5 +1,5 @@
 
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 Lab 2. Cassandra Data Modeling
 -------------------------------------------
@@ -162,7 +162,7 @@ an optional **Time-To-Live** (**TTL**)
  value:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_01.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_01.jpg)
 
 :::
 The elements of a column
@@ -186,7 +186,7 @@ depicted in the following figure. It is a set of orderable
 columns with a unique row key, also known as a primary key:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_02.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_02.jpg)
 
 :::
 The structure of a row
@@ -217,7 +217,7 @@ family. As shown in the  following figure, it is a
 container for a set of rows with a name:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_03.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_03.jpg)
 
 :::
 The structure of a column family
@@ -248,7 +248,7 @@ The outermost data model element is
  keyspace, as illustrated in the following figure:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_04.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_04.jpg)
 
 :::
 The structure of a keyspace
@@ -273,7 +273,7 @@ family collection of
 super columns:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_05.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_05.jpg)
 
 :::
 The structure of a super column and a super column family
@@ -464,7 +464,7 @@ The following figure shows a simple relational data
 model of a stock quote application:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_06.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_06.jpg)
 
 :::
 The relational data model of a stock quote application (Source: Yahoo!
@@ -593,7 +593,7 @@ The following figure depicts the logical and physical storage views of
 the `stock_symbol `table:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_07.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_07.jpg)
 
 :::
 The Cassandra data model for Query A
@@ -673,7 +673,7 @@ The logical and physical storage views of
 `stock_ticker_by_exchange` are shown as follows:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_08.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_08.jpg)
 
 :::
 The Cassandra data model for Query B
@@ -746,7 +746,7 @@ the logical and physical storage views of
 figure:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_02_09.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_02_09.jpg)
 
 :::
 The Cassandra data model for Query C

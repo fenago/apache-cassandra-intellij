@@ -1,4 +1,4 @@
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 Lab 5. Effective CQL
 ------------------------
@@ -96,7 +96,7 @@ engine of Apache Cassandra. Notice that the data is partitioned
 (co-located) by its row key, and then each column is ordered by the
 column keys.
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/1.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/1.jpg)
 
 As you can see in the preceding screenshot, data is simply stored by its
 row key (also known as the **partitioning key**). Within each partition,
@@ -123,7 +123,7 @@ On the other hand, the new storage engine changes in Apache Cassandra
 3.0 offer several improvements. With version 3.0 and up, stored data is
 now organized like this:
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/2.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/2.jpg)
 
 Figure 3.2: Demonstration of how data is stored in the new storage
 engine used by Apache Cassandra 3.0 and up. While data is still

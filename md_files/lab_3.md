@@ -1,5 +1,5 @@
 
-<img align="right" src="./logo-small.png">
+<img align="right" src="https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/logo-small.png">
 
 Lab 3. CQL Data Types
 ----------------------------------
@@ -72,7 +72,7 @@ As shown in the following figure, `cqlsh` shows the cluster
 name, Cassandra, CQL, and Thrift protocol versions on startup:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_01.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_01.jpg)
 
 :::
 cqlsh connected to the Cassandra instance running on the local node
@@ -93,7 +93,7 @@ This utility will be used extensively in this course to demonstrate how to
 use CQL to define the Cassandra data model:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_02.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_02.jpg)
 
 :::
 Create keyspace fenago in cqlsh
@@ -108,7 +108,7 @@ columns. It also supports collection types and all data types available
 to Cassandra. The following table lists the supported basic data types
 and their corresponding meanings:
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/table1.png)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/table1.png)
 
 ### Cassandra implementation
 
@@ -120,7 +120,7 @@ an `enum` called `Native` in the
 the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_03.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_03.jpg)
 
 :::
 Cassandra source code declaring CQL Version 3 native data types
@@ -159,7 +159,7 @@ insert some data into it. We need to specify the keyspace,
 `table01` , as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_04.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_04.jpg)
 
 :::
 Create table01 to illustrate each native data type
@@ -175,7 +175,7 @@ be specified along with an attribute, that is,
 shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_05.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_05.jpg)
 
 :::
 Insert a sample record into table01
@@ -210,7 +210,7 @@ the `list` command in Cassandra CLI are shown in the following
 screenshot. We will then walk through each column one by one:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_06.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_06.jpg)
 
 :::
 Comparison of the sample row in cqlsh and Cassandra CLI
@@ -372,7 +372,7 @@ IPv6 address `2001:0db8:85a3:0042:1000:8a2e:0370:7334` , as
 shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_07.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_07.jpg)
 
 :::
 Comparison of the sample row in cqlsh and Cassandra CLI in inetfield
@@ -426,7 +426,7 @@ However, the ASCII characters are still stored as byte values, as shown
 in the screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_08.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_08.jpg)
 
 :::
 Experiment of the textfield data type
@@ -448,7 +448,7 @@ formats. As shown in the following screenshot, the internal value of May
 the epoch:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_13.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_13.jpg)
 
 :::
 Experiment of the timestamp data type
@@ -553,7 +553,7 @@ of `table01` to demonstrate the usage of
 these `timeuuid` functions:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_09.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_09.jpg)
 
 :::
 Demonstration of timeuuid functions
@@ -663,7 +663,7 @@ The following screenshot shows that counter value is stored in the value
 of the column:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_10.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_10.jpg)
 
 :::
 Experiment of the counter data type
@@ -695,7 +695,7 @@ with columns of each collection and insert some data into it,
 as shown in the following screenshot:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_11.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_11.jpg)
 
 :::
 Experiment on collections
@@ -819,7 +819,7 @@ component value itself. So, for `contactfield.facebook` ,
 applies the same treatment to a tuple:
 
 
-![](https://raw.githubusercontent.com/fenago/apache-cassandra/master/images/8884OS_03_12.jpg)
+![](https://raw.githubusercontent.com/fenago/apache-cassandra-intellij/master/md_files/images/8884OS_03_12.jpg)
 
 
 Experiment of user-defined and tuple types
