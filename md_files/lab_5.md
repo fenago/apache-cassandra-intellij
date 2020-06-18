@@ -1,4 +1,6 @@
-Effective CQL
+<img align="right" src="./logo-small.png">
+
+Lab 5. Effective CQL
 ------------------------
 
 In this lab, we will examine common approaches to data modeling and

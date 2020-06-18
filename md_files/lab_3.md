@@ -1,4 +1,5 @@
 
+<img align="right" src="./logo-small.png">
 
 Lab 3. CQL Data Types
 ----------------------------------

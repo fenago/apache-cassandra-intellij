@@ -1,7 +1,8 @@
 
+<img align="right" src="./logo-small.png">
 
 Lab 4. Indexes
----------------------------
+---------------
 
 
 There is no doubt that Cassandra can store a gigantic volume of data
@@ -17,8 +18,7 @@ understanding of them, we can then design a high-performance data model.
 
 
 Primary index
--------------------------------
-
+----------------
 
 
 Cassandra is a column-based database. Each row can have different number

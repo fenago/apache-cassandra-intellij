@@ -1,4 +1,4 @@
-
+<img align="right" src="./logo-small.png">
 
 ### Other CQL commands
 
@@ -6,9 +6,6 @@ CQL has some additional commands and constructs that provide additional
 functionality. A few of them bear a resemblance to their similarly-named
 SQL counterparts, but may behave differently.
 
- 
-
- 
 
 #### COUNT
 

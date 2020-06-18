@@ -1,4 +1,6 @@
 
+<img align="right" src="./logo-small.png">
+
 ### Writing data
 
 Given the ways in which Apache Cassandra has been shown to handle things

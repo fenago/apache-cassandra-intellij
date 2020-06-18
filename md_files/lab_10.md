@@ -1,5 +1,5 @@
 
- 
+<img align="right" src="./logo-small.png">
 
 ### Executing a BATCH statement
 

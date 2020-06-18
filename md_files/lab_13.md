@@ -1,4 +1,4 @@
-
+<img align="right" src="./logo-small.png">
 
 ### Creating a custom data type
 

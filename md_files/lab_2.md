@@ -1,4 +1,5 @@
 
+<img align="right" src="./logo-small.png">
 
 Lab 2. Cassandra Data Modeling
 -------------------------------------------

@@ -1,4 +1,5 @@
 
+<img align="right" src="./logo-small.png">
 
 Lab 1. Bird's Eye View of Cassandra
 -------------------------------------------------

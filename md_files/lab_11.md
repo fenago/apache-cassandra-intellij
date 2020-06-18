@@ -1,4 +1,4 @@
-
+<img align="right" src="./logo-small.png">
 
 ### Altering a keyspace
 
