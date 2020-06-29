@@ -10,6 +10,8 @@ and take a detailed look into the wealthy set of data types supported by
 Cassandra. We will walk through the data types to study what their
 internal storage structure looks like.
 
+**Note:** Directory "lab_03" contains all examples for this lab. Open vscode to see all the files.
+
 Introduction to CQL
 -------------------------------------
 

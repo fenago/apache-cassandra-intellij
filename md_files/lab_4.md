@@ -17,6 +17,8 @@ understanding of them, we can then design a high-performance data model.
 
 
 
+**Note:** Directory "lab_04" contains all examples for this lab. Open vscode to see all the files.
+
 Primary index
 ----------------
 

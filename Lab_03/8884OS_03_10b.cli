@@ -1,5 +1,1 @@
-%sh
-cat > script.cli <<EOL
 describe table03;
-EOL
-cqlsh -f  script.cli --keyspace=fenago

@@ -1,5 +1,3 @@
-USE fenago;
-
 CREATE TABLE table02 (
   rowkey ascii,
   counterfield counter,

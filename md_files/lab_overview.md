@@ -32,6 +32,11 @@ who wants to adopt Cassandra.
 - Grasp the Model-By-Query techniques through working examples
 - Step-by-step tutorial of a stock market technical analysis application
 
+
+### Install intellij an tun cassadnra
+
+Open **install_intellij_cassandra.pdf** and follow instruction to setup intellij and run cassandra.
+
 ### Labs
 
 Labs for this course are listed below:

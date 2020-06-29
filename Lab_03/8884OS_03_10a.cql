@@ -1,5 +1,3 @@
-USE fenago;
-
 CREATE TABLE table03 (
  rowkey ascii,
  setfield set<text>,
