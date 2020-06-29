@@ -10,12 +10,8 @@ Open vscode by clicking Click `Applications` > `Development` > `VS Code`.
 It is usually a good idea to rename your cluster. Inside the /etc/cassandra/conf/cassandra.yaml file, specify a new cluster_name property, overwriting the default Test Cluster:
 
 ```
-cluster_name: 'fenagocluster'
+cluster_name: 'PermanentWaves'
 ```
-
-The num_tokens property default of 256 has proven to be too high for the newer, 3.x versions of Cassandra. Go ahead and set that to 24:
-
-`num_tokens: 24`
 
 To enable user security, change the authenticator and authorizer properties (from their defaults) to the following values:
 
@@ -30,7 +26,9 @@ Cassandra installs with all security disabled by default. Even if you are not co
 
 
 ## Restart Cassandra
-Let's stop and start cassandra so that *cassandra.yaml* can take effect. Double click `Stop Cassandra` to stop cassandra and the `Start Cassandra` to start cassandra.
+Let's start cassandra so that *cassandra.yaml* can take effect. Double click `Start Cassandra` to start cassandra.
+
+**Note:** click `Stop Cassandra` to stop cassandra if it's already running
 
 Verify cassandra is running by running following command in the terminal:
 
