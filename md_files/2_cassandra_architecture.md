@@ -63,14 +63,6 @@ distributed around the nodes in the cluster. The partition key of the
 data is hashed to determine it's **token**. The data is sent to the
 nodes responsible for the token ranges that contain the hashed token
 value.
-
-### Note
-
-The consistent hashing algorithm is used in many distributed systems,
-because it has intrinsic ways of dealing with changing range
-assignments.You can refer to *Cassandra High Availability*
-by* *Strickland R. (2014), published by fenago.
-
  
 
 The partition key (formerly known as a **row key**) is the first part of
