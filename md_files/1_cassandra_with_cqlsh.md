@@ -242,7 +242,7 @@ cassdba@cqlsh:fenagocassandra> SELECT * FROM hi_scores_by_game
 (3 rows)
 ```
 
-As mentioned previously, the following chapters will discuss why and
+As mentioned previously, the following labs will discuss why and
 when Cassandra only allows certain `PRIMARY KEY` components to
 be used in the `WHERE` clause. The important thing to remember
 at this point is that in Cassandra, tables and data structures should be
