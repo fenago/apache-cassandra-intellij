@@ -28,7 +28,7 @@ Cassandra installs with all security disabled by default. Even if you are not co
 ## Restart Cassandra
 Let's start cassandra so that *cassandra.yaml* can take effect. Double click `Start Cassandra` to start cassandra.
 
-**Note:** click `Stop Cassandra` to stop cassandra if it's already running
+**Note:** Click `Stop Cassandra` to stop cassandra if it's already running
 
 Verify cassandra is running by running following command in the terminal:
 
