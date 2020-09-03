@@ -1,8 +1,8 @@
-package com.baeldung.datastax.cassandra;
+package com.fenago.datastax.cassandra;
 
-import com.baeldung.datastax.cassandra.domain.Video;
-import com.baeldung.datastax.cassandra.repository.KeyspaceRepository;
-import com.baeldung.datastax.cassandra.repository.VideoRepository;
+import com.fenago.datastax.cassandra.domain.Video;
+import com.fenago.datastax.cassandra.repository.KeyspaceRepository;
+import com.fenago.datastax.cassandra.repository.VideoRepository;
 import com.datastax.oss.driver.api.core.CqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

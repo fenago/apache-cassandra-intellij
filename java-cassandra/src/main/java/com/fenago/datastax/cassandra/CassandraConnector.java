@@ -1,4 +1,4 @@
-package com.baeldung.datastax.cassandra;
+package com.fenago.datastax.cassandra;
 
 import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.CqlSessionBuilder;

@@ -1,4 +1,4 @@
-package com.baeldung.cassandra.java.client.repository;
+package com.fenago.cassandra.java.client.repository;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -18,7 +18,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import com.baeldung.cassandra.java.client.CassandraConnector;
+import com.fenago.cassandra.java.client.CassandraConnector;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Session;
 
@@ -45,10 +45,10 @@ public class KeyspaceRepositoryIntegrationTest {
 
     @Test
     public void whenCreatingAKeyspace_thenCreated() {
-        String keyspaceName = "testBaeldungKeyspace";
+        String keyspaceName = "testfenagoKeyspace";
         schemaRepository.createKeyspace(keyspaceName, "SimpleStrategy", 1);
 
-        // ResultSet result = session.execute("SELECT * FROM system_schema.keyspaces WHERE keyspace_name = 'testBaeldungKeyspace';");
+        // ResultSet result = session.execute("SELECT * FROM system_schema.keyspaces WHERE keyspace_name = 'testfenagoKeyspace';");
 
         ResultSet result = session.execute("SELECT * FROM system_schema.keyspaces;");
 
@@ -60,7 +60,7 @@ public class KeyspaceRepositoryIntegrationTest {
 
     @Test
     public void whenDeletingAKeyspace_thenDoesNotExist() {
-        String keyspaceName = "testBaeldungKeyspace";
+        String keyspaceName = "testfenagoKeyspace";
 
         // schemaRepository.createKeyspace(keyspaceName, "SimpleStrategy", 1);
         schemaRepository.deleteKeyspace(keyspaceName);

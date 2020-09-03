@@ -480,4 +480,4 @@ Cassandra database with Java. Some of the key concepts of this database
 have also been discussed in order to help you kick start.
 
 The full implementation of this tutorial can be found in the [Github
-project](https://github.com/eugenp/tutorials/tree/master/persistence-modules/java-cassandra).
+project](https://github.com/fenago/apache-cassandra-intellij/tree/master/java-cassandra).

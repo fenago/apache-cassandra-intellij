@@ -1,4 +1,4 @@
-package com.baeldung.datastax.cassandra.domain;
+package com.fenago.datastax.cassandra.domain;
 
 import java.time.Instant;
 import java.util.UUID;
