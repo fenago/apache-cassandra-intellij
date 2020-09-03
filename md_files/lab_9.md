@@ -249,7 +249,7 @@ components. If we consider our attempts to insert a new row to set our
 order status to `PENDING`, this could have been used:
 
 ```
-INSERT INTO order_status (status,order_id,shipping_weight_kg
+INSERT INTO order_status (status,order_id,shipping_weight_kg)
 VALUES ('PENDING',fcb15fc2-feaa-4ba9-a3c6-899d1107cce9,1.4)
 IF NOT EXISTS;
 ```
