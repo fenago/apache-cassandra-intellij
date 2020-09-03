@@ -1,4 +1,4 @@
-package com.fenago.datastax.cassandra.repository;
+package com.baeldung.datastax.cassandra.repository;
 
 import com.datastax.oss.driver.api.core.CqlIdentifier;
 import com.datastax.oss.driver.api.core.CqlSession;

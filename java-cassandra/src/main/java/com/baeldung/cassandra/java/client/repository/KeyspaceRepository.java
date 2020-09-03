@@ -1,4 +1,4 @@
-package com.fenago.cassandra.java.client.repository;
+package com.baeldung.cassandra.java.client.repository;
 
 import com.datastax.driver.core.Session;
 

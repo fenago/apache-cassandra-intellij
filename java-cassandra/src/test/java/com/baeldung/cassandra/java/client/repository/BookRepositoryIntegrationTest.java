@@ -1,4 +1,4 @@
-package com.fenago.cassandra.java.client.repository;
+package com.baeldung.cassandra.java.client.repository;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -16,8 +16,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.fenago.cassandra.java.client.CassandraConnector;
-import com.fenago.cassandra.java.client.domain.Book;
+import com.baeldung.cassandra.java.client.CassandraConnector;
+import com.baeldung.cassandra.java.client.domain.Book;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Session;
 import com.datastax.driver.core.exceptions.InvalidQueryException;

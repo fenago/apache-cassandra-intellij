@@ -1,4 +1,4 @@
-package com.fenago.cassandra.java.client;
+package com.baeldung.cassandra.java.client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

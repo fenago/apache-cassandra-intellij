@@ -1,4 +1,4 @@
-package com.fenago.cassandra.java.client.domain;
+package com.baeldung.cassandra.java.client.domain;
 
 import java.util.UUID;
 

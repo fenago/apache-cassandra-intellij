@@ -1,6 +1,6 @@
-package com.fenago.datastax.cassandra.repository;
+package com.baeldung.datastax.cassandra.repository;
 
-import com.fenago.datastax.cassandra.domain.Video;
+import com.baeldung.datastax.cassandra.domain.Video;
 import com.datastax.oss.driver.api.core.CqlIdentifier;
 import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.cql.BoundStatement;
